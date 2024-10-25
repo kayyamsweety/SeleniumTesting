@@ -18,9 +18,6 @@ public class Mousehover {
     WebElement mac=driver.findElement(By.xpath("//a[normalize-space()='Mac (1)']"));  
     
 	Actions act=new Actions(driver);
-	
-	//1.mouse hover actions
-	//act.moveToElement(desktop).moveToElement(mac).click().build().perform();
 	act.moveToElement(desktop).moveToElement(mac).click().perform();
 	
 	
